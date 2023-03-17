@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <title>Dialog</title>
+  </head>
+  <body>
+    <div>
+        Input: <input id = "num", onkeydown="keyDown(event)">
+        <div>
+          Web content: <md-block id="webContent"></md-block>
+        </div>
+    </div>
+    <script src='./render.js'></script>
+  </body>
+</html>
